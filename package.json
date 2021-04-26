@@ -1,0 +1,30 @@
+{
+  "name": "testpass_sorting",
+  "version": "1.0.0",
+  "description": "test pass sorting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muthuraman393/testpass_sorting.git"
+  },
+  "keywords": [
+    "test",
+    "pass",
+    "sorting"
+  ],
+  "author": "MUTHURAMAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muthuraman393/testpass_sorting/issues"
+  },
+  "homepage": "https://github.com/muthuraman393/testpass_sorting#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "2.8.1",
+    "express": "^4.16.4",
+    "http-server": "^0.12.3"
+  }
+}
