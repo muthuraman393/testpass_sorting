@@ -1,11 +1,11 @@
 # testpass_sorting
 
-Requirements to run the program:
+*********Requirements to run the program********:
 ***********************************
-node js should be installed in the machine.
+Node js latest version should be installed in the machine.
 
 
-Steps to Run the application:
+******Steps to Run the application**********:
 *****************************************
 step 1: Download the repository to the local machine
 
@@ -37,8 +37,8 @@ step 5: Open google chrome and enter "http://localhost:8090" to view the applica
 
 
 
-To Test with different input : 
-***********************************
+******To Test with different input ********: 
+**************************************
 
 step 1 : Goto root/public_js/src/js/shuffled.json 
 
