@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY APP</title>
+  <script src="src/js/common/utilities.js"> </script>
+  <script src="src/js/composers/flightcomposer.js"> </script>
+  <script src="src/js/composers/traincomposer.js"> </script>
+  <script src="src/js/composers/buscomposer.js"> </script>
+  <script src="src/js/common/Sortingfunc.js"> </script>
+  <script src="src/js/Stringcomposer.js"> </script>
+  <script src="src/js/Sorter.js"> </script>
+
+  <link rel="stylesheet" href="src/css/bootstrap.min.css" />
+  <style>
+    .selectboxesrow {
+      border: 1px solid black;
+      /*display:none;*/
+      margin: 7px;
+      padding: 25px;
+    }
+
+    .fstcontainer,
+    .seccontainer {
+      border: 3px solid red;
+      width: 200px;
+      height: 200px;
+      margin: auto;
+      overflow-y: auto;
+    }
+
+    #entertext {
+      width: 141px;
+    }
+
+    pre {
+      width: 845px;
+    }
+  </style>
+  <script>
+
+  </script>
+</head>
+
+<body>
+
+  <main>
+    <div class="insideclass">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="radio text-center">
+              <h1>Test Pass Sorting</h1>
+              <label>Clicking the button will shuffle the input and perform sorting </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row selectboxesrow">
+
+          <div class="col-sm-2">
+            <label for="entersubmit">Click the button :</label> </br>
+            <input type="submit" name="entersubmit" id="entersubmit" value="Shuffle and Sort" onclick="shuffleSort()" />
+          </div>
+          <div class="col-sm-2">
+            <h3 id="headingip">Input</h3>
+
+            <div id="inputpre"></div>
+          </div>
+        </div>
+        <div class="row selectboxesrow">
+          <div class="col-sm-2">
+            <h2>Result</h2>
+            <pre>
+			<div id="outputpre"></div>
+			 </pre>
+
+          </div>
+        </div>
+        <div class="row selectboxesrow">
+          <div>
+            <div id="outputtext"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
