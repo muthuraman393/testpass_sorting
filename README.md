@@ -35,6 +35,10 @@ step 5: Open google chrome and enter "http://localhost:8090" to view the applica
 
 
 
+![travelsorting](https://user-images.githubusercontent.com/6744357/116037575-e7844a80-a685-11eb-9c2b-57be7b3b1872.gif)
+
+
+
 
 
 ******To Test with different input ********: 
